@@ -9,5 +9,3 @@ steps:
   BadStep:
     title: This syntax error will make the pipeline report failure, even though it will actually run.
     image: codefresh/cli
-    commands:
-    
