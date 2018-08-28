@@ -1,0 +1,11 @@
+version: '1.0'
+steps:
+  CreateWait:
+    title: Add a wait and then echo
+    image: busybox
+    commands:
+    - sleep 45
+    - echo "Done sleeping. Now cause havok."
+
+This syntax error will make the pipeline report failure, even though it will actually run.
+y
