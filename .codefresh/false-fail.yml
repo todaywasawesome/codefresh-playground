@@ -6,6 +6,6 @@ steps:
     commands:
     - sleep 45
     - echo "Done sleeping. Now cause havok."
+  BadStep:
+    title: This syntax error will make the pipeline report failure, even though it will actually run.
 
-This syntax error will make the pipeline report failure, even though it will actually run.
-y
